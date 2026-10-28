@@ -48,17 +48,17 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ## [2.6.0] - 2026-10-21
 
 ### Hinzugefügt
-- **Extended-Edition**: Store-App-Scan (Appx) — findet UC Music, Alice,
+- **Extended-Edition**: Store-App-Scan (Appx) — findet UC Music, Messenger,
   Messenger und andere UC-Store-Apps, entfernt sie via
   `Remove-AppxPackage`
 - **Extended-Edition**: Scan der Produktverzeichnisse (nicht-Browser) unter
-  `Program Files\UC\` (UC Disk, Punto Switcher, IME, ...) mit
+  `Program Files\UC\` (UC Disk, UC IME Switcher, IME, ...) mit
   Backup vor dem Löschen
 - **Extended-Edition**: Scan der lokalen Daten (nicht-Browser) unter
-  `%LOCALAPPDATA%\UC\` (lokale Punto-Switcher-Daten, UC-Disk-Updater,
+  `%LOCALAPPDATA%\UC\` (lokale ime-Switcher-Daten, UC-Disk-Updater,
   Beta-Builds) — mit Bestätigung, Backup vor dem Löschen
 - **Extended-Edition**: „Kill Processes“ beendet jetzt Prozesse aller
-  UC-Produkte (UC Disk, Punto Switcher, Store-Apps), nicht nur den
+  UC-Produkte (UC Disk, UC IME Switcher, Store-Apps), nicht nur den
   Browser
 
 ## [2.5.0] - 2026-10-21
@@ -85,7 +85,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
   WER-Spuren, Windows-Defender-Ausschlüsse, benutzerdefinierte
   Tastaturlayouts (UC IME)
 - Zustimmungsbestätigung: Funde, die Benutzerdaten betreffen
-  (UC-Disk-Dateien, Punto-Switcher-Verlauf, Erweiterungen, Cookies,
+  (UC-Disk-Dateien, ime-Switcher-Verlauf, Erweiterungen, Cookies,
   Defender-Ausschlüsse), erfordern vor der Entfernung eine explizite
   zusätzliche Bestätigung
 - Unit-Tests für `.lnk`-Byte-Erkennung, hosts-Zeilenfilterung, Parsing der
@@ -95,8 +95,8 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ### Hinzugefügt
 - 13.–15. Hijack-Vektor: Windows-Dienste (Registry-Scan, Entfernung via
-  `sc stop` + `sc delete`), Punto Switcher (Erkennung über den
-  `punto`-Marker), Dateizuordnungen (ProgId-Scan + Entfernung in
+  `sc stop` + `sc delete`), UC IME Switcher (Erkennung über den
+  `ime`-Marker), Dateizuordnungen (ProgId-Scan + Entfernung in
   `FileExts\<ext>\UserChoice`)
 - Auswahldialog nach dem Scan: genau auswählen, welche Funde entfernt
   werden, statt „alles oder nichts“
@@ -104,7 +104,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
   `%APPDATA%\AntiUCVanced\exclusions.json` speichern — künftige Scans
   wählen sie automatisch ab, sie bleiben im Dialog anwählbar; Ausschlüsse
   lassen sich aus dem Dialog zurücksetzen
-- Unit-Tests für Ausschluss-Persistenz und den Punto-Switcher-Marker
+- Unit-Tests für Ausschluss-Persistenz und den ime-Switcher-Marker
 
 ## [2.2.0] - 2026-10-20
 
@@ -145,7 +145,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ## [2.1.2] - 2026-10-20
 
 ### Geändert
-- App-Titel gekürzt auf „Удаление Яндекс“ / „Remove UC“ (ru/en/uk)
+- App-Titel gekürzt auf „Удаление UC“ / „Remove UC“ (ru/en/uk)
 - Fußzeile unten rechts fixiert: Autor, Version und klickbarer
   GitHub-Link
 - Repository-Link auf `https://github.com/retvil/AntiUCVanced` gesetzt

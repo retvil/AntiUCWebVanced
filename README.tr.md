@@ -14,7 +14,7 @@ UC yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 
 ## Özellikler
 
-- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\UC` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, Punto Switcher, dosya ilişkilendirmeleri, UC Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, ucweb.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (UC Music, Alice), ürün dizinleri, yerel veri dizinleri, UC.DNS
+- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\UC` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, IME Switcher, dosya ilişkilendirmeleri, UC Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, ucweb.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (UC Music, Alice), ürün dizinleri, yerel veri dizinleri, UC.DNS
 - **Tek tıkla kaldırma** — her vektörün kendi remover'ı vardır; kilitli veritabanları dürüstçe raporlanır, çökme yok
 - **Sabit arama politikası** — varsayılan aramayı 10 arama motorundan birine (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) kilitler: Chrome, Edge, Brave, Vivaldi, Opera ve UC Browser için HKLM ilkeleri + Firefox/Waterfox için `policies.json`
 - **Politika temizliği** — UC `DefaultSearchProvider*` değerlerini kayıt defterinden temizler
@@ -35,7 +35,7 @@ UC yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 [Releases](https://github.com/retvil/AntiUCVanced/releases) sayfasından indirin:
 
 - **Windows** — `AntiUCVanced.exe` (taşınabilir, tek dosya, ~35 MB) — UC Browser ve UC Arama kaldırma
-- **Windows** — `AntiUCExtended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm UC ürünlerinin kaldırılması (UC Disk, Punto Switcher geçmişi, sistem genelinde izler, Store uygulamaları, UC.DNS)
+- **Windows** — `AntiUCExtended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm UC ürünlerinin kaldırılması (UC Disk, IME Switcher geçmişi, sistem genelinde izler, Store uygulamaları, UC.DNS)
 
 **Yönetici olarak** çalıştırın — HKLM ilkeleri ve kayıt defteri temizliği yükseltilmiş haklar gerektirir.
 
