@@ -141,7 +141,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2026-10-20
 
-Fork of [TheCawa/AntiUC](https://github.com/TheCawa/AntiUC) 1.3.
+Fork of [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ### Added
 - **Search hijack scanner** — detects 11 vectors UC uses to install itself as default search/browser:
@@ -177,7 +177,7 @@ Fork of [TheCawa/AntiUC](https://github.com/TheCawa/AntiUC) 1.3.
 
 ## [1.3.0] - upstream
 
-Baseline from [TheCawa/AntiUC](https://github.com/TheCawa/AntiUC):
+Baseline from [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 - UC Browser process termination (`browser.exe`, `ucweb.exe`)
 - Installation path search
 - Uninstall registry entry cleanup
@@ -188,3 +188,4 @@ Baseline from [TheCawa/AntiUC](https://github.com/TheCawa/AntiUC):
 [2.1.2]: https://github.com/retvil/AntiUCVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiUCVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiUCVanced/compare/v1.3.0...v2.0.0
+
