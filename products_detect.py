@@ -1,6 +1,6 @@
 """Extended-edition scans: whole UC products beyond the browser.
 
-Covers Store (Appx) applications — UC Music, Alice, Messenger, etc. —
+Covers Store (Appx) applications — UC Music, Messenger, Messenger, etc. —
 and product install directories under Program Files\\UC that are not
 the browser itself.
 """
@@ -22,7 +22,7 @@ def is_product_process(name: str | None) -> bool:
     """True if a process belongs to any UC product (Extended kill scope).
 
     Covers UC Disk (UCDisk2.exe), UC Disk (ucdisk.exe),
-    Store apps (UC Music / Messenger / Alice) and the browser itself.
+    Store apps (UC Music / Messenger / Messenger) and the browser itself.
     """
     lowered = (name or "").lower()
     return lowered in _BROWSER_PROCESS_NAMES or any(
