@@ -26,7 +26,7 @@ UC nie instaluje tylko przeglądarki — po cichu rejestruje się jako domyślna
 <details>
 <summary>Okno główne</summary>
 
-![Okno główne AntiUCVanced](docs/screenshot.png)
+![Okno główne AntiUCVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Jeśli narzędzie uwolniło Cię od UCa — możesz wesprzeć rozwój:
 
 ## Licencja
 
-MIT — zob. [LICENSE](LICENSE).
+MIT — zob. [LICENSE](../LICENSE).
 
 
 

@@ -26,7 +26,7 @@ UC жай ғана браузер орнатпайды — ол жүйенің �
 <details>
 <summary>Негізгі терезе</summary>
 
-![AntiUCVanced негізгі терезесі](docs/screenshot.png)
+![AntiUCVanced негізгі терезесі](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — қ. [LICENSE](LICENSE).
+MIT — қ. [LICENSE](../LICENSE).
 
 
 

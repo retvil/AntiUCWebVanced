@@ -26,7 +26,7 @@ UC ставит не просто браузер — он тихо пропис�
 <details>
 <summary>Главное окно</summary>
 
-![Главное окно AntiUCVanced](docs/screenshot.png)
+![Главное окно AntiUCVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE](../LICENSE).
 
 
 

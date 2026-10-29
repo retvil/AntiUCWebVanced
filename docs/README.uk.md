@@ -26,7 +26,7 @@ UC встановлює не просто браузер — він тихо п�
 <details>
 <summary>Головне вікно</summary>
 
-![Головне вікно AntiUCVanced](docs/screenshot.png)
+![Головне вікно AntiUCVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Ліцензія
 
-MIT — див. [LICENSE](LICENSE).
+MIT — див. [LICENSE](../LICENSE).
 
 
 

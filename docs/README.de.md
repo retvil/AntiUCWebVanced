@@ -26,7 +26,7 @@ UC installiert nicht nur einen Browser — es trägt sich still über vierzig Sy
 <details>
 <summary>Hauptfenster</summary>
 
-![AntiUCVanced Hauptfenster](docs/screenshot.png)
+![AntiUCVanced Hauptfenster](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Wenn dich das Tool von UC befreit hat, kannst du die Entwicklung unterstützen:
 
 ## Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+MIT — siehe [LICENSE](../LICENSE).
 
 
 

@@ -26,7 +26,7 @@ UC yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 <details>
 <summary>Ana pencere</summary>
 
-![AntiUCVanced ana penceresi](docs/screenshot.png)
+![AntiUCVanced ana penceresi](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Araç sizi UC'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
 ## Lisans
 
-MIT — bkz. [LICENSE](LICENSE).
+MIT — bkz. [LICENSE](../LICENSE).
 
 
 
